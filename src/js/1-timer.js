@@ -28,7 +28,8 @@ const options = {
     } else {
       userSelectedDate = selectedDate;
         btnStart.disabled = false;
-        updateButtonState();
+        updateButtonState()
+        // updateField();
     }
   },
 };

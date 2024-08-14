@@ -1,0 +1,37 @@
+.form {
+    width: 360px;
+    padding: 0 12px;
+}
+input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 12px 7px;
+    margin-top: 8px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+}
+input[type="number"]:hover {
+    border-color: #000;
+}
+input[type="number"].is-pressed {
+    outline: transparent;
+    border-color: #4e75ff;
+}
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    padding: 12px 7px;
+    margin-top: 16px;
+    width: 100%;
+}
+button {
+    width: 374px;
+    margin: 24px 0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    color: #fff;
+}
+button:hover {
+    background-color: #6c8cff;
+}
